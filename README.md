@@ -223,3 +223,32 @@ Each Turn is clearly separated (### headings)
 Each section ends cleanly before next starts
 No clutter, no confusion — very readable on GitHub
 
+---
+
+## Key Design Decisions & Tradeoffs
+
+### Decision 1: Local LLM over Cloud API
+Why: The assignment requires a working POC. Using Ollama with local models makes this accessible to anyone without API costs or internet requirements.
+
+Tradeoff: Local models are slower (5-15 seconds per response) but completely free and private.
+
+### Decision 2: Separate Prompt Files
+Why: The assignment specifically asks for a prompts/ folder with each agent's prompt as a separate file. This makes prompt engineering easier without touching code.
+
+Tradeoff: More files to manage, but better separation of concerns.
+
+### Decision 3: Real-time Evaluation
+Why: To enable adaptive questioning, the system needs immediate feedback on each answer.
+
+Tradeoff: Adds latency to each turn, but enables intelligent follow-ups and difficulty adjustment.
+
+#### Decision 4: Simple CLI over Web Interface
+Why: The assignment says "simple CLI or notebook is fine." I chose CLI to minimize dependencies and keep focus on the agent architecture.
+
+Tradeoff: Less polished UI, but faster to develop and test.
+
+### Decision 5: JSON Outputs for Evaluator and Coach
+Why: Structured data makes it easier to parse scores and generate consistent feedback.
+
+Tradeoff: Requires careful prompt engineering to ensure valid JSON output.
+
