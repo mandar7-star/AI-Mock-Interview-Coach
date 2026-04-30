@@ -84,3 +84,53 @@ Instead of a single chatbot, this project uses a **multi-agent architecture** wh
   ],
   "would_hire": "maybe"
 }
+
+---
+
+## 💡 Key Highlights
+
+- Multi-agent design (Interviewer + Evaluator + Coach)  
+- Adaptive questioning based on performance  
+- Structured scoring system (0–10 scale)  
+- Actionable feedback (not generic advice)  
+- Real interview-like experience  
+
+---
+
+## 🧩 Technical Design
+
+- Local LLM-based system (no external API dependency)  
+- Modular agent architecture  
+- JSON-based structured outputs  
+- Transcript logging for analysis  
+
+---
+
+## 🎯 What makes it different
+
+**Most mock interview tools:**
+- Give generic feedback  
+- Don’t adapt to answers  
+
+**This system:**
+- Adjusts difficulty dynamically  
+- Evaluates like a strict interviewer  
+- Coaches like a real mentor  
+
+---
+
+## 📌 Use Case
+
+- Data Science / AI interview preparation  
+- Practicing structured answers  
+- Identifying real weaknesses before interviews  
+
+---
+
+## 🚀 Outcome
+
+Helps candidates:
+
+- Think clearly under pressure  
+- Improve answer quality  
+- Get interview-ready with targeted feedback  
