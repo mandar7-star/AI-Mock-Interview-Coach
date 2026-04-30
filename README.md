@@ -4,6 +4,16 @@ A smart interview simulator that mimics real interview scenarios using **multipl
 
 ---
 
+# Setup and Run Instructions
+
+git clone https://github.com/mandar7-star/AI-Mock-Interview-Coach.git
+cd AI-Mock-Interview-Coach
+ollama pull llama3.2
+pip install ollama
+python main.py
+
+---
+
 
 ##  What this project does
 
