@@ -87,6 +87,8 @@ Instead of a single chatbot, this project uses a **multi-agent architecture** wh
 
 ---
 
+---
+
 ## 💡 Key Highlights
 
 - Multi-agent design (Interviewer + Evaluator + Coach)  
