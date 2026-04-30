@@ -1,3 +1,5 @@
+## Strong Candidate
+
 Context: Role - Product Manager, Focus - Behavioral, Difficulty - Intermediate
 
 Turn 1:
@@ -20,6 +22,9 @@ Strengths: Clear communication, metrics-driven, collaborative
 Gaps: Could share more failure examples
 Verdict: Yes - would hire
 
+---
+
+## Weak Candidate
 
 Context: Role - Data Analyst, Focus - Technical, Difficulty - Beginner
 
@@ -48,6 +53,9 @@ Gaps: Limited knowledge of data cleaning techniques, lacks statistical fundament
 Advice: Study pandas documentation, practice with Kaggle datasets
 Verdict: No - needs significant technical preparation
 
+---
+
+## Edge Case - Vague Answers
 
 Context: Role - Frontend Developer, Focus - Technical
 
