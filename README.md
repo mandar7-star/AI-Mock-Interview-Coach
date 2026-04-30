@@ -87,7 +87,6 @@ Instead of a single chatbot, this project uses a **multi-agent architecture** wh
 
 ---
 
----
 
 ## 💡 Key Highlights
 
