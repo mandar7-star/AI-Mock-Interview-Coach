@@ -17,7 +17,7 @@ It behaves like a **real interviewer + evaluator + career coach combined**.
 ---
 
 
-##  Core Idea
+##  Architecture Overview
 
 Instead of a single chatbot, this project uses a **multi-agent architecture** where each agent has a clear responsibility:
 
